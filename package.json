@@ -1,0 +1,39 @@
+{
+  "name": "fix-vscode-launch",
+  "version": "1.0.0",
+  "description": "Fix vscode launch",
+  "readme": "README.md",
+  "main": "./src/index.js",
+  "bin": {
+    "fix-vscode-launch": "./src/main.js"
+  },
+  "files": [
+    "src/"
+  ],
+  "scripts": {
+    "start": "node src/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuizHenriqueKS/fix-vscode-launch.git"
+  },
+  "keywords": [
+    "fix",
+    "launch",
+    "vscode"
+  ],
+  "author": "Zul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuizHenriqueKS/fix-vscode-launch/issues"
+  },
+  "homepage": "https://github.com/LuizHenriqueKS/fix-vscode-launch#readme",
+  "devDependencies": {
+    "eslint": "^7.18.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "hjson": "^3.2.2"
+  }
+}
