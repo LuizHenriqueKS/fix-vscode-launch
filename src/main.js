@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const path = require('path');
 const argument = require('./lib/argument');
 const handleException = require('./lib/handleException');
